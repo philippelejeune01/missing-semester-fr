@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Le trimestre manquant de votre éducation Informatique
+nositetitle: true
+
 ---
 
 Les cours vous apprenent toutes sortes de sujets avancés en informatique, des
@@ -69,6 +71,18 @@ bénéficient de ces ressources. Vous pouver trouver des discussions sur
  - [YouTube](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)
 
 # Traductions
+{% comment %}
+Quelques autres URLs:
+
+- https://news.ycombinator.com/item?id=27154577
+- https://news.ycombinator.com/item?id=34934216
+- https://www.reddit.com/r/learnprogramming/comments/nca1v3/mit_the_missing_semester_of_your_cs_education/
+- https://www.reddit.com/r/compsci/comments/eyywv8/the_missing_semester_of_your_cs_education_from_mit/
+- https://www.reddit.com/r/programming/comments/io7nq3/the_missing_semester_of_your_cs_education_mit/
+- https://twitter.com/MIT_CSAIL/status/1349766980413263873
+- https://twitter.com/MIT_CSAIL/status/1481676163491659780
+- https://twitter.com/MIT_CSAIL/status/1581313961093484545
+{% endcomment %}
 
 - [Chinese (Simplified)](https://missing-semester-cn.github.io/)
 - [Chinese (Traditional)](https://missing-semester-zh-hant.github.io/)
@@ -81,6 +95,12 @@ bénéficient de ces ressources. Vous pouver trouver des discussions sur
 - [Turkish](https://missing-semester-tr.github.io/)
 - [Vietnamese](https://missing-semester-vn.github.io/)
 - [French](https://missing-semester-fr.github.io/) 
+- [Arabic](https://missing-semester-ar.github.io/)
+- [Italian](https://missing-semester-it.github.io/)
+- [Persian](https://missing-semester-fa.github.io/)
+- [German](https://missing-semester-de.github.io/)
+- [Bengali](https://missing-semester-bn.github.io/)
+
 
 Note: ces liens sont vers des sites externes traduits par la communauté. Ils n'ont
 pas été vérifié.

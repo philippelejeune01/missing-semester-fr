@@ -231,7 +231,7 @@ For interactive tools such as the ones based on ncurses, help for the commands c
 
 Sometimes manpages can provide overly detailed descriptions of the commands, making it hard to decipher what flags/syntax to use for common use cases.
 [TLDR pages](https://tldr.sh/) are a nifty complementary solution that focuses on giving example use cases of a command so you can quickly figure out which options to use.
-For instance, I find myself referring back to the tldr pages for [`tar`](https://tldr.ostera.io/tar) and [`ffmpeg`](https://tldr.ostera.io/ffmpeg) way more often than the manpages.
+For instance, I find myself referring back to the tldr pages for [`tar`](https://tldr.inbrowser.app/pages/common/tar) and [`ffmpeg`](https://tldr.inbrowser.app/pages/common/ffmpeg) way more often than the manpages.
 
 
 ## Finding files
@@ -293,7 +293,7 @@ For now I am sticking with ripgrep (`rg`), given how fast and intuitive it is. S
 # Find all python files where I used the requests library
 rg -t py 'import requests'
 # Find all files (including hidden files) without a shebang line
-rg -u --files-without-match "^#!"
+rg -u --files-without-match "^#\!"
 # Find all matches of foo and print the following 5 lines
 rg foo -A 5
 # Print statistics of matches (# of matched lines and files )
@@ -326,7 +326,7 @@ It can be enabled in [zsh](https://github.com/zsh-users/zsh-autosuggestions) and
 
 You can modify your shell's history behavior, like preventing commands with a leading space from being included. This comes in handy when you are typing commands with passwords or other bits of sensitive information.
 To do this, add `HISTCONTROL=ignorespace` to your `.bashrc` or `setopt HIST_IGNORE_SPACE` to your `.zshrc`.
-If you make the mistake of not adding the leading space, you can always manually remove the entry by editing your `.bash_history` or `.zhistory`.
+If you make the mistake of not adding the leading space, you can always manually remove the entry by editing your `.bash_history` or `.zsh_history`.
 
 ## Directory Navigation
 

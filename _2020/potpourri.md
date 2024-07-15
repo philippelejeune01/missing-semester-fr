@@ -46,7 +46,7 @@ There are even more complex modifications you can configure:
 - Having remaps being keyboard or software specific.
 
 Some software resources to get started on the topic:
-- macOS - [karabiner-elements](https://pqrs.org/osx/karabiner/), [skhd](https://github.com/koekeishiya/skhd) or [BetterTouchTool](https://folivora.ai/)
+- macOS - [karabiner-elements](https://karabiner-elements.pqrs.org/), [skhd](https://github.com/koekeishiya/skhd) or [BetterTouchTool](https://folivora.ai/)
 - Linux - [xmodmap](https://wiki.archlinux.org/index.php/Xmodmap) or [Autokey](https://github.com/autokey/autokey)
 - Windows - Builtin in Control Panel, [AutoHotkey](https://www.autohotkey.com/) or [SharpKeys](https://www.randyrants.com/category/sharpkeys/)
 - QMK - If your keyboard supports custom firmware you can use [QMK](https://docs.qmk.fm/) to configure the hardware device itself so the remaps works for any machine you use the keyboard with.
@@ -221,7 +221,7 @@ around, all without touching the mouse. They are worth looking into!
 ## VPNs
 
 VPNs are all the rage these days, but it's not clear that's for [any
-good reason](https://gist.github.com/joepie91/5a9909939e6ce7d09e29). You
+good reason](https://web.archive.org/web/20230710155258/https://gist.github.com/joepie91/5a9909939e6ce7d09e29). You
 should be aware of what a VPN does and does not get you. A VPN, in the
 best case, is _really_ just a way for you to change your internet
 service provider as far as the internet is concerned. All your traffic

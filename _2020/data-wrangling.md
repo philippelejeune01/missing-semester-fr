@@ -116,10 +116,7 @@ you can pass `-E`.
 So, looking back at `/.*Disconnected from /`, we see that it matches
 any text that starts with any number of characters, followed by the
 literal string "Disconnected from &rdquo;. Which is what we wanted. But
-{% comment %}
-note: the spelling of "trixy" below is intentional; see https://github.com/missing-semester/missing-semester/pull/84
-{% endcomment %}
-beware, regular expressions are trixy. What if someone tried to log in
+beware, regular expressions are tricky. What if someone tried to log in
 with the username "Disconnected from"? We'd have:
 
 ```
@@ -186,7 +183,7 @@ As you can probably imagine, you can come up with _really_ complicated
 regular expressions. For example, here's an article on how you might
 match an [e-mail
 address](https://www.regular-expressions.info/email.html). It's [not
-easy](https://emailregex.com/). And there's [lots of
+easy](https://web.archive.org/web/20221223174323/http://emailregex.com/). And there's [lots of
 discussion](https://stackoverflow.com/questions/201323/how-to-validate-an-email-address-using-a-regular-expression/1917982).
 And people have [written
 tests](https://fightingforalostcause.net/content/misc/2006/compare-email-regex.php).
@@ -439,7 +436,7 @@ ffmpeg -loglevel panic -i /dev/video0 -frames 1 -f image2 -
    one](https://stats.wikimedia.org/EN/TablesWikipediaZZ.htm), [this
    one](https://ucr.fbi.gov/crime-in-the-u.s/2016/crime-in-the-u.s.-2016/topic-pages/tables/table-1),
    or maybe one [from
-   here](https://www.springboard.com/blog/free-public-data-sets-data-science-project/).
+   here](https://www.springboard.com/blog/data-science/free-public-data-sets-data-science-project/).
    Fetch it using `curl` and extract out just two columns of numerical
    data. If you're fetching HTML data,
    [`pup`](https://github.com/EricChiang/pup) might be helpful. For JSON

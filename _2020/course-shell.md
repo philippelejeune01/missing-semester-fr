@@ -66,11 +66,13 @@ pas été programmée. Pour prendre avantage des outils que votre ordinateur
 détient, il faut qu'on aille old-school et qu'on revienne à un interface
 textuel: La Shell (Coquille).
 
+
 Presque toutes les plateformes que vous pouvez mettre la main dessus aura un
 shell d'une forme ou d'une autre et plusieurs d'entre elles ont plusieurs shell
 que vous pouvez choisir. Même si elles ont quelques détails différents, elles
 sont tous similaires à leur coeur(?): elles vous laisse rouler des programmes,
 leur saisir des données et inspecter leur résultats de façon semi-structurée.
+
 
 Dans cette leçon, nous allons nous concentrer sur la Bourne Again SHell, ou
 simplement "bash". C'est le shell le plus utilisée et sa syntaxe est similaire

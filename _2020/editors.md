@@ -294,7 +294,7 @@ Vim is heavily customizable, and it's worth spending time exploring
 customization options. You can look at people's dotfiles on GitHub for
 inspiration, for example, your instructors' Vim configs
 ([Anish](https://github.com/anishathalye/dotfiles/blob/master/vimrc),
-[Jon](https://github.com/jonhoo/configs/blob/master/editor/.config/nvim/init.vim) (uses [neovim](https://neovim.io/)),
+[Jon](https://github.com/jonhoo/configs/blob/master/editor/.config/nvim/init.lua) (uses [neovim](https://neovim.io/)),
 [Jose](https://github.com/JJGO/dotfiles/blob/master/vim/.vimrc)). There are
 lots of good blog posts on this topic too. Try not to copy-and-paste people's
 full configuration, but read it, understand it, and take what you need.
@@ -358,7 +358,7 @@ popular ones are
 [Vimium](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb?hl=en)
 for Google Chrome and [Tridactyl](https://github.com/tridactyl/tridactyl) for
 Firefox. You can even get Vim bindings in [Jupyter
-notebooks](https://github.com/lambdalisue/jupyter-vim-binding).
+notebooks](https://github.com/jupyterlab-contrib/jupyterlab-vim).
 Here is a [long list](https://reversed.top/2016-08-13/big-list-of-vim-like-software) of software with vim-like keybindings.
 
 # Advanced Vim

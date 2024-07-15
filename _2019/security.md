@@ -39,7 +39,7 @@ for more suggestions.
 ## General Security Advice
 
 Tech Solidarity has a pretty great list of [do's and don'ts for
-journalists](https://techsolidarity.org/resources/basic_security.htm)
+journalists](https://web.archive.org/web/20221123204419/https://techsolidarity.org/resources/basic_security.htm)
 that has a lot of sane advice, and is decently up-to-date. [@thegrugq](https://medium.com/@thegrugq)
 also has a good blog post on [travel security
 advice](https://medium.com/@thegrugq/stop-fabricating-travel-security-advice-35259bf0e869)
@@ -56,7 +56,7 @@ a password manager. Some good ones are:
  - [1password](https://1password.com/)
  - [KeePass](https://keepass.info/)
  - [BitWarden](https://bitwarden.com/)
- - [`pass`](https://www.passwordstore.org/)
+ - [`pass`](https://git.zx2c4.com/password-store/about/)
 
 If you're particularly paranoid, use one that encrypts the passwords
 locally on your computer, as opposed to storing them in plain-text at
